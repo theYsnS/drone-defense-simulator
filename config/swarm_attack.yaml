@@ -1,0 +1,10 @@
+name: "Swarm Attack"
+duration: 180
+time_step: 0.5
+radar_range: 12
+drones:
+  - {id: 1, type: "quadcopter", start_x: 7000, start_y: 2000, altitude: 100, waypoints: [{x: 0, y: 0, alt: 50}]}
+  - {id: 2, type: "quadcopter", start_x: 7500, start_y: 2500, altitude: 120, waypoints: [{x: 0, y: 0, alt: 50}]}
+  - {id: 3, type: "quadcopter", start_x: 6500, start_y: 1500, altitude: 80, waypoints: [{x: 0, y: 0, alt: 50}]}
+  - {id: 4, type: "nano", start_x: 3000, start_y: 1000, altitude: 50, waypoints: [{x: 0, y: 0, alt: 30}]}
+  - {id: 5, type: "fixed_wing", start_x: -8000, start_y: 6000, altitude: 800, waypoints: [{x: 0, y: 0, alt: 500}]}
